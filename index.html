@@ -21,6 +21,15 @@
 
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init({
+				publicKey: "cqMYtPUlbKtkI2hWu",
+			});
+		})();
+	</script>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -600,74 +609,6 @@
 		</div>
 	</section>
 
-	<section class="ftco-section testimony-section bg-primary">
-		<div class="container">
-			<div class="row justify-content-center pb-5">
-				<div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
-					<span class="subheading">Testimonies</span>
-					<h2 class="mb-4">What client says about?</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-				</div>
-			</div>
-			<div class="row ftco-animate">
-				<div class="col-md-12">
-					<div class="carousel-testimony owl-carousel">
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4 pl-5">Got an idea? Let's bring it to life! I'm here to help with web
-										design, development, and graphics – turning concepts into reality.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4 pl-5">Far far away, behind the word mountains, far from the countries
-										Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4 pl-5">Far far away, behind the word mountains, far from the countries
-										Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img"
-											style="background-image: url(data:image/jpeg;base64,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)">
-										</div>
-										<div class="pl-3">
-											<p class="name">Prajwall</p>
-											<span class="position">CEO of Cleverture studios</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 
 
@@ -685,38 +626,41 @@
 
 			<div class="row block-9">
 				<div class="col-md-8">
-					<form action="#" class="bg-light p-4 p-md-5 contact-form">
+					<form action="#" id="form" class="bg-light p-4 p-md-5 contact-form">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Name">
+									<input type="text" id="fname" class="form-control" placeholder="Your Name">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Email">
+									<input type="text" id="email" class="form-control" placeholder="Your Email">
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Subject">
+									<input type="text" id="subject" class="form-control" placeholder="Subject">
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="7" class="form-control"
+									<textarea name="" id="message" cols="30" rows="7" class="form-control"
 										placeholder="Message"></textarea>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+									<input onclick="sendMail()" type="submit" id="button" value="Send Message"
+										class="btn btn-primary py-3 px-5">
 								</div>
 							</div>
 						</div>
 					</form>
 
 				</div>
+
+
 
 				<div class="col-md-4 d-flex pl-md-5">
 					<div class="row">
@@ -840,7 +784,22 @@
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
 				stroke="#F96D00" />
 		</svg></div>
+	<script>
+		function sendMail() {
 
+			var parms = {
+				fname: document.getElementById("fname").value,
+				email: document.getElementById("email").value,
+				subject: document.getElementById("subject").value,
+
+				message: document.getElementById("message").value
+			}
+			emailjs.send("service_v40wvrg", "template_m1v21xk", parms).then(function (res) {
+				alert("sussfully sent" + res.status);
+			})
+		}
+
+	</script>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
